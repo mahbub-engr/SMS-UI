@@ -1,0 +1,63 @@
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background: #FCFAFA;
+}
+p {
+  color: #667085;
+}
+a{
+  text-decoration: none;
+}
+section.login {
+    height: 100vh;
+}
+.tite h2 {
+    font-size: 36px;
+    color: #4F4F4F;
+    font-weight: 700;
+}
+.login-form {
+    padding: 50px 0;
+}
+.login-form p {
+   font-size: 16px;
+   line-height: 25px;
+}
+input {
+    color: #8A8A8A;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #A7A7A7;
+    padding: 13px;
+}
+input:focus {
+    outline: 1px solid #A7A7A7 !important;
+}
+  .password-box {
+    position: relative;
+  }
+  .password-box span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+  }
+#login{
+  background: #2D88D4;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  padding: 13px;
+}
+.sighnup-text {
+   font-size: 12px !important;
+}
+.login-form p a {
+   font-weight: bold;
+}
